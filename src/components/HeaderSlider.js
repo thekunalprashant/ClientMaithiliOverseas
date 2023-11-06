@@ -22,15 +22,15 @@ const HeaderSlider = () => {
           alt="..."
         />
         <img
-          src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+          src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="..."
         />
         <img
-          src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
+          src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="..."
         />
         <img
-          src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
+          src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="..."
         />
       </Carousel>
