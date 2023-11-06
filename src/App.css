@@ -1,38 +1,64 @@
-.App {
+@import "@fortawesome/fontawesome-free/css/all.css";
+.whatsapp-chat {
+  position: fixed;
+  bottom: 20px; /* Adjust the positioning as needed */
+  right: 20px; /* Adjust the positioning as needed */
+  background-color: #25d366; /* WhatsApp green color */
+  color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.whatsapp-chat:hover {
+  background-color: #128c7e; /* Darker green on hover */
+}
+.whatsapp-icon {
+  font-size: 24px;
+  line-height: 60px;
+}
+
+.text-overlay {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #fff;
+  border-radius: 5px;
+  z-index: 100;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-title {
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-description {
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clip-star {
+  background: gold;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  display: inline-block;
+  height: 25px;
+  width: 25px;
 }
