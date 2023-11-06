@@ -1,6 +1,6 @@
 import React from "react";
 import Products from "../components/Products";
-import Faqs from "../components/Faqs";
+import Faqs from "../components/Faqss";
 import CertifiedBy from "../components/CertifiedBy";
 import GetinTouch from "../components/GetinTouch";
 import Review from "../components/Review";

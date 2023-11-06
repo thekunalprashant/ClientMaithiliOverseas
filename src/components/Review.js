@@ -2,7 +2,7 @@ import React from "react";
 
 const Review = () => {
   return (
-    <div className="py-28">
+    <div className="py-20">
       <div className="flex justify-center">
         <h3 className="text-2xl font-bold pb-10">Love from Clients</h3>
       </div>
