@@ -103,13 +103,12 @@ const Products = () => {
           <div class="p-5">
             <a href="/">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Copper Products
+                Copper Bottles
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Our copper products are not only aesthetically pleasing but also
-              boast health benefits. From cookware to home decor, find a wide
-              range of copper products in our catalog.
+              Our copper Bottles are not only aesthetically pleasing but also
+              boast health benefits. 
             </p>
             <a
               href="/"
