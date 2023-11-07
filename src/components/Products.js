@@ -1,4 +1,5 @@
 import React from "react";
+import Makhana from "../images/Makhana.jpg";
 
 const Products = () => {
   return (
@@ -9,14 +10,14 @@ const Products = () => {
           <a href="/">
             <img
               class="rounded-t-lg aspect-video w-full h-52 object-cover"
-              src="https://5.imimg.com/data5/SELLER/Default/2021/8/YJ/DS/HM/21129101/raw-makhana-500x500.jpg"
+              src={Makhana}
               alt=""
             />
           </a>
           <div class="p-5">
             <a href="/">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Makhana (Fox Nut)
+                Makhana (Fox Nuts)
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
