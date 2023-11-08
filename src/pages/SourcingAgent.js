@@ -1,5 +1,4 @@
 import React from "react";
-import { VscDebugBreakpointLog } from "react-icons/vsc";
 const SourcingAgent = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[55vh]">
