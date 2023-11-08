@@ -5,7 +5,7 @@ const Contact = () => {
     <div class="bg-gray-100 mx-auto flex justify-center items-center w-full h-[55vh] text-gray-700 font-sans p-4">
       <div className="container flex justify-center items-center py-10">
         <div>
-          <h2 class="text-3xl font-semibold mb-4 text-center ">
+          <h2 class="text-3xl font-bold mb-4 text-center ">
             Contact Maithili Overseas
           </h2>
           <p class="mb-4 font-bold">

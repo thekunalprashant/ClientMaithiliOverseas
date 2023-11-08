@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Products = () => {
   return (
     <div className="grid p-4">
-      <h1 className="text-center text-2xl font-bold p-4">Products We Export</h1>
-      <div className="box-border flex justify-center gap-12 flex-wrap">
+      <h1 className="text-center text-3xl font-bold p-8 ">Products We Export</h1>
+      <div className="box-border flex justify-center gap-12 flex-wrap p-4">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <Link to={"/Products/Makhana"}>
             <img

@@ -1,8 +1,8 @@
 import React from "react";
 const SourcingAgent = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-[55vh]">
-      <h1 className="text-3xl p-7 text-center  font-bold">Sourcing Agent</h1>
+    <div className="flex bg-gray-100 text-gray-700 font-sans flex-col justify-center items-center lg:h-[55vh] p-4">
+      <h1 className="text-3xl font-bold p-7 text-center ">Sourcing Agent</h1>
       <div className=" flex flex-wrap justify-between ">
         <div className=" md:w-1/2 p-4">
           <h2 className="text-2xl font-bold text-teal-500 pb-2">How We Work</h2>
@@ -12,9 +12,9 @@ const SourcingAgent = () => {
             needs in given timeline.
           </p>
         </div>
-        <div className=" md:w-1/2 p-4">
+        <div className=" md:w-1/2 p-2 px-4">
           <div className="">
-            <ul style={{ listStyleType: "disc" }}>
+            <ul style={{ listStyleType: "disc" }} className="p-4">
               <li>We find manufacturer as per buyer requirement.</li>
               <li>We negotiate and fix deal in suitable price range.</li>
               <li>We arrange transportation and handle full consignment.</li>
