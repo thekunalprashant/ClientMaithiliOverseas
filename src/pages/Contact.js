@@ -8,20 +8,24 @@ const Contact = () => {
           <h2 class="text-3xl font-semibold mb-4 text-center ">
             Contact Maithili Overseas
           </h2>
-          <p class="mb-4">
+          <p class="mb-4 font-bold">
             Feel free to contact us with any questions, inquiries, or feedback.
             We are here to assist you.
           </p>
 
           <ul class="list-disc pl-6">
-            <li class="mb-2">
+            <li class="mb-2 font-semibold hover:text-[#1A56DB]">
               Email:{" "}
-              <a href="mailto:maithilioverseas@hotmail.com">
+              <a href="mailto:maithilioverseas@hotmail.com ">
                 maithilioverseas@hotmail.com
               </a>
             </li>
-            <li class="mb-2">Phone: +91 90153 60030</li>
-            <li class="mb-2">Address: New Delhi, Delhi, India</li>
+            <li class="mb-2 font-semibold hover:text-[#1A56DB]">
+              Phone: +91 90153 60030
+            </li>
+            <li class="mb-2 font-semibold hover:text-[#1A56DB]">
+              Address: New Delhi, Delhi, India
+            </li>
           </ul>
         </div>
       </div>

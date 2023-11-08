@@ -1,16 +1,29 @@
 import React, { useState } from "react";
-import Button from "./Button";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 const Header = () => {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Products", link: "/products" },
-    { name: "Sourcing Agent", link: "/sourcing" },
-    { name: "About Us", link: "/about-us" },
-    { name: "Contact Us", link: "/contact-us" },
+    { name: "Products", link: "/Products" },
+    { name: "Sourcing Agent", link: "/Sourcing-agent" },
+    { name: "About Us", link: "/About-us" },
+    { name: "Contact Us", link: "/Contact-us" },
   ];
   let [open, setOpen] = useState(false);
+
+  const recipientEmail = "maithilioverseas@hotmail.com";
+  const subject = "Inquiry About Export Services";
+
+  const body =
+    "Hello, \n\nI am interested in your products and would like to inquire about availability, specifications, and pricing. Please provide me with the necessary information. \n\nThank you.";
+
+  const openEmailClient = () => {
+    const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <div className="shadow-md w-full top-0 left-0 ">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
@@ -43,7 +56,13 @@ const Header = () => {
               </Link>
             </li>
           ))}
-          <Button>Get Started</Button>
+          <button
+            className="bg-[#B5ED3D] text-black  py-2 px-6 rounded md:ml-8 hover:text-white hover:bg-[#000000c4]
+    duration-500"
+            onClick={openEmailClient}
+          >
+            Get Started
+          </button>
         </ul>
       </div>
     </div>

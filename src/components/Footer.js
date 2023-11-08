@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,20 +17,38 @@ const Footer = () => {
               <div className="QuickLinks">
                 <p className="text-lg ">Quick Links</p>
                 <ul className="max-w-sm font-bold mt-2 text-gray-400 pb-5">
-                  <li className="hover:text-white">Home</li>
-                  <li className="hover:text-white">Sourcing Agents</li>
-                  <li className="hover:text-white">About Us</li>
-                  <li className="hover:text-white">Contact Us</li>
+                  <li className="hover:text-white">
+                    <Link to={"/"}>Home</Link>
+                  </li>
+                  <li className="hover:text-white">
+                    <Link to={"/Sourcing-agent"}>Sourcing Agents</Link>
+                  </li>
+                  <li className="hover:text-white">
+                    <Link to={"/About-us"}>About Us</Link>
+                  </li>
+                  <li className="hover:text-white">
+                    <Link to={"/Contact-us"}>Contact Us</Link>
+                  </li>
                 </ul>
               </div>
               <div className="products">
                 <p className="text-lg ">Products</p>
                 <ul className="max-w-sm font-bold mt-2 text-gray-400 pb-5 ">
-                  <li className="hover:text-white">Makhana Fox Nut</li>
-                  <li className="hover:text-white">Imitation Jewellery</li>
-                  <li className="hover:text-white">Copper Products</li>
-                  <li className="hover:text-white">Handicraft Products</li>
-                  <li className="hover:text-white">Denims</li>
+                  <li className="hover:text-white">
+                    <Link to={"/Products/Makhana"}>Makhana (Fox Nuts)</Link>
+                  </li>
+                  <li className="hover:text-white">
+                    <Link to={"/Products/Jewellery"}>Imitation Jewellery</Link>
+                  </li>
+                  <li className="hover:text-white">
+                    <Link to={"/Products/Copper-Bottles"}>Copper Bottles</Link>
+                  </li>
+                  <li className="hover:text-white">
+                    <Link to={"/Products/Handicraft"}>Handicraft Products</Link>
+                  </li>
+                  <li className="hover:text-white">
+                    <Link to={"/Products/Denims"}>Denims</Link>
+                  </li>
                 </ul>
               </div>
               <div className="contact">

@@ -7,6 +7,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Body from "./pages/Body";
+import ProductsPage from "./pages/ProductsPage";
+import FoxNuts from "./pages/products/FoxNuts";
+import Jewellery from "./pages/products/ImitationJewellery";
+import CopperBottles from "./pages/products/CopperBottles";
+import Denims from "./pages/products/Denims";
+import Handicraft from "./pages/products/Handicraft";
+import SourcingAgent from "./pages/SourcingAgent";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +32,34 @@ const router = createBrowserRouter([
       {
         path: "contact-us",
         element: <Contact />,
+      },
+      {
+        path: "sourcing-agent",
+        element: <SourcingAgent />,
+      },
+      {
+        path: "products",
+        element: <ProductsPage />,
+      },
+      {
+        path: "products/makhana",
+        element: <FoxNuts />,
+      },
+      {
+        path: "products/jewellery",
+        element: <Jewellery />,
+      },
+      {
+        path: "products/denims",
+        element: <Denims />,
+      },
+      {
+        path: "products/handicraft",
+        element: <Handicraft />,
+      },
+      {
+        path: "products/copper-bottles",
+        element: <CopperBottles />,
       },
     ],
   },
