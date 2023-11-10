@@ -11,8 +11,6 @@ import pudinaMasala from "../../images/products/pudinaMasala.png";
 import chocolate from "../../images/products/chocolate.png";
 import shahiKheer from "../../images/products/shahiKheer.png";
 
-
-
 const FoxNuts = () => {
   return (
     <div className="flex bg-gray-100 text-gray-700 font-sans flex-col justify-center items-center p-4">
@@ -117,7 +115,7 @@ const FoxNuts = () => {
               </p>
             </div>
           </div>
-          
+
           <div className="flex flex-wrap md:flex-row-reverse md:flex-nowrap justify-center  md:justify-start items-center p-4 m-4 bg-white">
             <img src={shahiKheer} alt="shahiKheer" />
             <div className="p-4">
