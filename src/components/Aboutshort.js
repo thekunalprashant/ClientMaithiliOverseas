@@ -1,4 +1,5 @@
 import React from "react";
+import aboutShort from "../images/aboutShort.avif"
 
 const Aboutshort = () => {
   return (
@@ -31,8 +32,7 @@ const Aboutshort = () => {
         </p>
       </div>
       <img className="  lg:w-1/3"
-        src="https://img.freepik.com/free-photo/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative_123827-24177.jpg?w=1060&t=st=1699657206~exp=1699657806~hmac=0664c8a3014897ffd36b0222815f53921f39beebcefaedb281d4c5407c9bb7a5"
-        alt="containers"
+        src={aboutShort} alt="containers"
       />
     </div>
   );

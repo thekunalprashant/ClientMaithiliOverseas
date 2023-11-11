@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 const Products = () => {
   return (
     <div className="grid p-4">
-      <h1 className="text-center text-3xl font-bold p-8 ">Products We Export</h1>
+      <h1 className="text-center text-3xl font-bold p-8 ">
+        Products We Export
+      </h1>
       <div className="box-border flex justify-center gap-12 flex-wrap p-4">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <Link to={"/Products/Makhana"}>
@@ -108,8 +110,9 @@ const Products = () => {
               </h5>
             </Link>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Our copper Bottles are not only aesthetically pleasing but also
-              boast health benefits.
+              Explore our refined copper bottle collection, a fusion of health
+              and elegance, crafted with unmatched quality and design. Products are meticulously crafted from high-quality copper, known
+              for its natural health benefits.
             </p>
             <Link
               to={"/Products/Copper-Bottles"}
