@@ -58,7 +58,7 @@ const Footer = () => {
                     href="mailto:sales@maithilioverseas.net"
                     className="max-w-sm font-bold mt-2 text-gray-400 hover:text-white "
                   >
-                    maithilioverseas@hotmail.com
+                    sales@maithilioverseas.net
                   </a>
                   <p className="max-w-sm font-bold mt-2 text-gray-400 hover:text-white">
                     New Delhi, Delhi, India
