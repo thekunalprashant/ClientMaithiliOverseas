@@ -1,6 +1,6 @@
 import React from "react";
 const Denims = () => {
-  const recipientEmail = "maithilioverseas@hotmail.com";
+  const recipientEmail = "sales@maithilioverseas.net";
   const subject = "Inquiry About Export Services";
 
   const body =

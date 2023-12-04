@@ -1,7 +1,7 @@
 import React from "react";
 
 const Handicraft = () => {
-  const recipientEmail = "maithilioverseas@hotmail.com";
+  const recipientEmail = "sales@maithilioverseas.net";
   const subject = "Inquiry About Export Services";
 
   const body =

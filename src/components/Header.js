@@ -11,7 +11,7 @@ const Header = () => {
   ];
   let [open, setOpen] = useState(false);
 
-  const recipientEmail = "maithilioverseas@hotmail.com";
+  const recipientEmail = "sales@maithilioverseas.net";
   const subject = "Inquiry About Export Services";
 
   const body =

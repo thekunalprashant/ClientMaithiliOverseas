@@ -55,7 +55,7 @@ const Footer = () => {
                 <p className="text-lg ">Contact Us</p>
                 <div className="">
                   <a
-                    href="mailto:maithilioverseas@hotmail.com"
+                    href="mailto:sales@maithilioverseas.net"
                     className="max-w-sm font-bold mt-2 text-gray-400 hover:text-white "
                   >
                     maithilioverseas@hotmail.com

@@ -19,6 +19,10 @@ const Contact = () => {
               <a href="mailto:maithilioverseas@hotmail.com ">
                 maithilioverseas@hotmail.com
               </a>
+              <br />
+              <a href="mailto:maithilioverseas@hotmail.com ">
+                sales@maithilioverseas.net
+              </a>
             </li>
             <li class="mb-2 font-semibold hover:text-[#1A56DB]">
               Phone: +91 90153 60030
