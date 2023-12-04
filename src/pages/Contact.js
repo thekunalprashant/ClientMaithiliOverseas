@@ -14,15 +14,23 @@ const Contact = () => {
           </p>
 
           <ul class="list-disc pl-6">
-            <li class="mb-2 font-semibold hover:text-[#1A56DB]">
-              Email:{" "}
-              <a href="mailto:maithilioverseas@hotmail.com ">
-                maithilioverseas@hotmail.com
-              </a>
-              <br />
-              <a href="mailto:maithilioverseas@hotmail.com ">
-                sales@maithilioverseas.net
-              </a>
+            <li class="mb-2 font-semibold">
+              Email Us:{" "}
+              <span>
+                <a
+                  className="hover:text-[#1A56DB] pr-4"
+                  href="mailto:sales@maithilioverseas.net "
+                >
+                  sales@maithilioverseas.net
+                </a>
+
+                <a
+                  className="hover:text-[#1A56DB]"
+                  href="mailto:maithilioverseas@hotmail.com "
+                >
+                  maithilioverseas@hotmail.com
+                </a>
+              </span>
             </li>
             <li class="mb-2 font-semibold hover:text-[#1A56DB]">
               Phone: +91 90153 60030
